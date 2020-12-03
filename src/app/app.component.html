@@ -1,6 +1,6 @@
 <h1>{{title}}</h1>
-<header><nav>News</nav><nav>Videos</nav></header>
-<section><app-hero></app-hero></section>
+<nav><a routerLink="/news">News</a><a routerLink="videos">Videos</a><a routerLink="/heroes">Heroes</a></nav>
+<section><router-outlet></router-outlet></section>
 
 <footer>
   <app-message></app-message>

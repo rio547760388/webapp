@@ -3,7 +3,7 @@ h1 {
   color: rgb(184, 45, 45);
 }
 
-nav {
+nav a{
   display: inline;
   margin: 5px 20px;
 }
