@@ -1,4 +1,6 @@
-<div *ngIf="hero1">
-  <input [(ngModel)]="hero1.name" placeholder="name"/>
-  <p>{{hero1.name}}</p>
+<div *ngIf="hero">
+  <input [(ngModel)]="hero.name" placeholder="name"/>
+  <p>{{hero.name}}</p>
 </div>
+
+<button (click)="goBack()">return</button>

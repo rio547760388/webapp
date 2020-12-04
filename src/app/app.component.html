@@ -1,7 +1,17 @@
-<h1>{{title}}</h1>
-<nav><a routerLink="/news">News</a><a routerLink="videos">Videos</a><a routerLink="/heroes">Heroes</a></nav>
-<section><router-outlet></router-outlet></section>
+<header>
+  <h1>{{title}} </h1> <img class="logo" src="assets/abc.jpg" routerLink="">
+</header>
+<nav>
+  <a routerLink="/news">News</a><a routerLink="/videos">Videos</a><a routerLink="/heroes">Heroes</a>
+</nav>
+<main>
+  <section class="main">
+    <router-outlet style="width: 800px;"></router-outlet>
+  </section>
+  <aside class="message-bar" style="width: 300px; float: right;">
+    <app-message></app-message>
+  </aside>
+</main>
 
 <footer>
-  <app-message></app-message>
 </footer>

@@ -1,3 +1,7 @@
+.logo {
+  display: inline;
+  width: 50px;
+}
 
 h1 {
   color: rgb(184, 45, 45);
@@ -6,4 +10,22 @@ h1 {
 nav a{
   display: inline;
   margin: 5px 20px;
+}
+
+.main {
+  display: inline;
+  width: 60%;
+}
+
+.main * {
+  display: inline;
+}
+
+.message-bar {
+  display: inline;
+  width: 40%;
+}
+
+.message-bar * {
+  display: inline;
 }

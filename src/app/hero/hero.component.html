@@ -1,11 +1,11 @@
 <ul>
-  <li *ngFor="let one of heroes" (click)="onChoose(one)" [class.selected]="hero === one">
+  <li *ngFor="let one of heroes" [class.selected]="hero === one">
     <p>
-      <a routerLink="/hero/{{one.id}}">Detail of {{one.name | uppercase}}</a>
+      <a routerLink="/hero/{{one.id}}">Detail of {{one.name | uppercase}} </a>
       <label>{{one.id}}</label>
       <span>{{one.name}}</span>
     </p>
   </li>
 </ul>
 
-<app-hero-detail [hero1]="hero"></app-hero-detail>
+
