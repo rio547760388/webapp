@@ -31,6 +31,8 @@ export class HeroService {
     );
   }
 
+  save(hero: Hero) {}
+
   errorHandler<T>(operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {
       // TODO: send the error to remote logging infrastructure
